@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+<img src="./public/todo-screenshot.png" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DailyDoings - Todo-List App
 
-Currently, two official plugins are available:
+### 👾 Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   ` React`
+-   `TypeScript`
+-   `TailwindCSS`
+-   `Motion`
 
-## Expanding the ESLint configuration
+### 🎯Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-   Create Task: add tasks with ease.
+-   Edit Task: update existing tasks to ensure task accuracy.
+-   Delete Task: remove tasks that are no longer needed to ensure a clean list.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚦Running the Project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+To run the project in your local environment, follow these steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository to your local machine.
+2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
+3. Run `npm run start` or `yarn start` to get the project started.
+4. Open [http://localhost:5173](http://localhost:5173) (or the address shown in your console) in your web browser to view the app.
