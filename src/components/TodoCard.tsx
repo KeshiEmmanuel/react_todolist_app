@@ -23,6 +23,7 @@ export default function TodoCard({
                     opacity: 0,
                     transition: {
                         duration: 1,
+                        delay: 0.5,
                     },
                 }}
                 className="flex justify-between w-full px-5 py-3 hover:bg-slate-700 transition-all bg-white/10 shadow-xl rounded-lg"

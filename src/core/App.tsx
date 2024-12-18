@@ -13,7 +13,6 @@ export default function App() {
 
     function handleDeleteTodo(id: number) {
         setTodos((todos) => todos.filter((todo) => todo.id !== id));
-        localStorage.setItem("todos", JSON.stringify(todos));
     }
     function editTask(e: FormEvent, id: number) {
         e.preventDefault();
@@ -33,7 +32,7 @@ export default function App() {
         );
     }
     return (
-        <main className="bg-gray-900 w-full  text-white">
+        <main className="bg-gray-900 w-full text-white">
             <div className="flex gap-2 mx-auto max-w-[500px] flex-col full-height items-center justify-center">
                 {todos && (
                     <>
