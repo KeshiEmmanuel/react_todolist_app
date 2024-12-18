@@ -1,4 +1,5 @@
-<img src="./public/todo-screenshot.png" />
+<div align="center"><img src="./public/todo-screenshot.png" width="500px" />
+</div>
 
 # DailyDoings - Todo-List App
 
